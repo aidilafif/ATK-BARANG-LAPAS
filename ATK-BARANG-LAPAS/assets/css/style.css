@@ -1,0 +1,43 @@
+/* Light mode styles (default) */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar-inverse.dark-mode {
+    background-color: #1c1c1c;
+    border-color: #333;
+}
+
+.navbar-inverse.dark-mode .navbar-nav > li > a {
+    color: #9d9d9d;
+}
+
+.navbar-inverse.dark-mode .navbar-nav > li > a:hover {
+    color: #ffffff;
+}
+
+.navbar-inverse.dark-mode .navbar-toggle {
+    border-color: #333;
+}
+
+.navbar-inverse.dark-mode .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.btn-default.dark-mode {
+    background-color: #444;
+    border-color: #555;
+    color: #fff;
+}
+
+.btn-default.dark-mode:hover {
+    background-color: #555;
+    border-color: #666;
+}
